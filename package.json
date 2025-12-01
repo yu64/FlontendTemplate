@@ -1,0 +1,21 @@
+{
+  "name": "deep-scatter-demo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install": "npm install & npx playwright install --with-deps",
+    "dev": "vite",
+    "build": "vite build",
+    "test:web": "playwright test",
+    "test:web:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^20.0.0",
+    "@unocss/vite": "^66.5.10-beta.1",
+    "typescript": "^5.0.0",
+    "unocss": "^66.5.10-beta.1",
+    "vite": "^5.0.0"
+  }
+}
