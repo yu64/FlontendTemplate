@@ -1,4 +1,5 @@
-import { createApp } from '@src/app.js';
+import { createApp } from '@src/App.js';
+import "uno.css";
 
 const app = createApp();
 const root = document.getElementById('app');
